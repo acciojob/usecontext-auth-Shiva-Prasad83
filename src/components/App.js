@@ -6,7 +6,7 @@ import Auth from "./Auth";
 const App = () => {
   const [checked,setChecked]=useState(false);
 
-  function updateStatus(){
+  function updateStatus(e){
     setChecked(!checked);
   }
 
